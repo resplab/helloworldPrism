@@ -4,13 +4,13 @@
 \alias{model_run}
 \title{Title}
 \usage{
-model_run(model_input = NULL)
+model_run(x = 1, y = 2)
 }
 \arguments{
-\item{model_input}{}
+\item{y}{}
 }
 \value{
-Returns a list of results
+
 }
 \description{
 Title

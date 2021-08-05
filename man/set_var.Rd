@@ -5,10 +5,10 @@
 \title{#' @export
 prism_get_output_structure<-function()
 {
-out<-list(
-n_agents=prism_output(source="$n_agents", type = "numeric/scalar", group = "", title = "Number of simulated individuals", description = ""),
-)
-return(out)
+  out<-list(
+    n_agents=prism_output(source="$n_agents", type = "numeric/scalar", group = "", title = "Number of simulated individuals", description = ""),
+  )
+  return(out)
 }}
 \usage{
 set_var(variable, value)
@@ -17,9 +17,9 @@ set_var(variable, value)
 #' @export
 prism_get_output_structure<-function()
 {
-out<-list(
-n_agents=prism_output(source="$n_agents", type = "numeric/scalar", group = "", title = "Number of simulated individuals", description = ""),
-)
-return(out)
+  out<-list(
+    n_agents=prism_output(source="$n_agents", type = "numeric/scalar", group = "", title = "Number of simulated individuals", description = ""),
+  )
+  return(out)
 }
 }

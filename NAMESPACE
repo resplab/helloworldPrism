@@ -3,5 +3,4 @@
 export(gateway)
 export(model_run)
 export(prism_model_run)
-import(helloworld)
 import(jsonlite)
